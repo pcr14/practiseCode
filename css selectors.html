@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title></title>
+<style type="text/css">
+h1{
+    font: size 60px;
+}
+div,p,h1{
+    background:#ddd;
+}
+div p{
+    color:red;
+}
+div>p{
+color: yellow;
+}
+div ~p{
+    color: orange;
+
+}
+div +p{
+    color:orange;
+
+}
+#one{
+    font-size: 40px;
+}
+.orange{
+    color:orange;
+}
+</style>
+</head>
+
+<body>
+    <h1>john</h1>
+    <p class="orange">i like orange</p>
+    <div>
+        <p id="one">im one</p>
+        <p id="two">im two</p>
+    </div>
+    <p>im blue</p>
+    <p>im red</p>
+</body>
+
+
+<!-- blck level elements are div,p, from h1 to h6-->
+<!--inline elments are span, a , img-->
+
+</html>
